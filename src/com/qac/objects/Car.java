@@ -17,6 +17,14 @@ public class Car {
 
 	}
 	
+	
+	@Override
+	public String toString() {
+		return "Car [ageOfCar=" + ageOfCar + ", brandOfCar=" + brandOfCar + ", engineSize=" + engineSize + ", carGears="
+				+ carGears + ", topSpeed=" + topSpeed + "]";
+	}
+
+
 	public String drive() {
 		return "brmmmm";
 	}

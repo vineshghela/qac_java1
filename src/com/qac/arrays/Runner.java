@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
 
+
 public class Runner {
 
 	public static void main(String[] args) {
@@ -60,15 +61,15 @@ public class Runner {
 		
 	//linked list 
 	// best for adding and removing items
-	LinkedList<String> cars = new LinkedList<String>();
-	cars.add("Audi");
-	cars.add("BMW");
-	cars.add("SEAT");
-	cars.add("honda");
-	cars.add("Ford");
-	cars.remove(3);
-//		
-	System.out.println( cars);
+//	LinkedList<String> cars = new LinkedList<String>();
+//	cars.add("Audi");
+//	cars.add("BMW");
+//	cars.add("SEAT");
+//	cars.add("honda");
+//	cars.add("Ford");
+//	cars.remove(3);
+////		
+//	System.out.println( cars);
 //	
 //	System.out.println(cars.removeFirst());
 //	System.out.println(cars);
@@ -80,15 +81,15 @@ public class Runner {
 		
 		
 
-//		Scanner s = new Scanner(System.in);
-//		System.out.println("What is your name?");
-//		String name = s.nextLine();
-//
-//		System.out.println("What is your age");
-//		int age = s.nextInt();
-//
-//		System.out.println("Hi " + name + ", next year you will be" + (age + 1));
-//
+		Scanner s = new Scanner(System.in);
+		System.out.println("What is your name?");
+		String name = s.nextLine();
+
+		System.out.println("What is your age");
+		int age = s.nextInt();
+
+		System.out.println("Hi " + name + ", next year you will be" + (age + 1));
+
 
 		
 	}
