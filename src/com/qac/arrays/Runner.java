@@ -36,35 +36,39 @@ public class Runner {
 //		}
 		
 		//array lists of Strings
-		
-		ArrayList<String> daysOfWeek = new ArrayList<String>();
-		daysOfWeek.add("Mon");
-		daysOfWeek.add("Tues");
-		daysOfWeek.add("Wed");
-		daysOfWeek.add("Thurs");
-		daysOfWeek.add("Fri");
-		daysOfWeek.add("sat");
-		daysOfWeek.add("sun");
-		
-		//System.out.println(daysOfWeek.get(1));
-		
-		for(int i =0; i<daysOfWeek.size();i++) {
-			System.out.println(daysOfWeek.get(i));
-		}
-		daysOfWeek.remove("sun");
-		daysOfWeek.remove(1);
-		for(int i =0; i<daysOfWeek.size();i++) {
-			System.out.println(daysOfWeek.get(i));
-		}
+		//Best for searching
+//		ArrayList<String> daysOfWeek = new ArrayList<String>();
+//		daysOfWeek.add("Mon");
+//		daysOfWeek.add("Tues");
+//		daysOfWeek.add("Wed");
+//		daysOfWeek.add("Thurs");
+//		daysOfWeek.add("Fri");
+//		daysOfWeek.add("sat");
+//		daysOfWeek.add("sun");
+//		
+//		//System.out.println(daysOfWeek.get(1));
+//		
+//		for(int i =0; i<daysOfWeek.size();i++) {
+//			System.out.println(daysOfWeek.get(i));
+//		}
+//		daysOfWeek.remove("sun");
+//		daysOfWeek.remove(1);
+//		for(int i =0; i<daysOfWeek.size();i++) {
+//			System.out.println(daysOfWeek.get(i));
+//		}
 		//
 		
 	//linked list 
-	LinkedList<Integer> cars = new LinkedList<Integer>();
-//	cars.addAll(1,2,3,4,5,6,7,8,9);
-//	cars.add("BMW");
-//	cars.add("SEAT");
+	// best for adding and removing items
+	LinkedList<String> cars = new LinkedList<String>();
+	cars.add("Audi");
+	cars.add("BMW");
+	cars.add("SEAT");
+	cars.add("honda");
+	cars.add("Ford");
+	cars.remove(3);
 //		
-//	System.out.println("The cars are: " + cars);
+	System.out.println( cars);
 //	
 //	System.out.println(cars.removeFirst());
 //	System.out.println(cars);

@@ -4,7 +4,7 @@ public class Runner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-			    	//   0123
+			    	// 0123
 		String str1 = "TeXt";
 		
 		System.out.println(str1.length()); //4
@@ -13,10 +13,11 @@ public class Runner {
 		System.out.println(str1.indexOf("e"));//1
 		System.out.println(str1.endsWith("t"));
 		System.out.println(str1.contains("Xt"));
+		System.out.println(str1.toUpperCase());// TEXT
 		// things to remember 
 		//start index is inclusive
 		//endindex is exclusive
-		System.out.println(str1.substring(0,3));
+		System.out.println(str1.substring(1,3));
 
 	}
 
